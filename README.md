@@ -8,7 +8,6 @@ E-commerce store built with Next.js, Stripe Checkout and Solana Pay.
 ### 1. Clone the repository and install dependencies
 
 ```
-cd ecommerce-nextjs-stripe-checkout
 npm install
 ```
 

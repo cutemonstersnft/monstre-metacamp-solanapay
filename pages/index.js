@@ -3,12 +3,10 @@ import { useState } from "react";
 import {
   ProductCard,
   Product,
-  ProductCardCus,
   MyModal,
 } from "@/components/index";
 
 import products from "products";
-import productscus from "productscus";
 
 React.useLayoutEffect = React.useEffect;
 

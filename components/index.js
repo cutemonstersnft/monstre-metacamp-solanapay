@@ -6,4 +6,3 @@ export { default as ProductCard } from './ProductCard';
 export { default as MyDisclosure } from './Disclosure';
 export { default as SideMenu } from './Sidemenu';
 export { default as MyModal } from './Modal';
-export { default as Tabs } from './Tabs';

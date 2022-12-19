@@ -3,7 +3,6 @@ export { default as Footer } from './Footer';
 export { default as Logo } from './Logo';
 export { default as Rating } from './Rating';
 export { default as ProductCard } from './ProductCard';
-export { default as ProductCardCus } from './ProductCardCus';
 export { default as MyDisclosure } from './Disclosure';
 export { default as SideMenu } from './Sidemenu';
 export { default as MyModal } from './Modal';

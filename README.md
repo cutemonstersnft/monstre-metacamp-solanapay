@@ -1,6 +1,6 @@
 E-commerce store built with Next.js, Stripe Checkout and Solana Pay.
 
-- Preview the app live [here](https://sbl.monstre.net/).
+- Preview the app live [here](https://monstre-metacamp-solanapay.vercel.app/).
 
 
 ## Getting Started

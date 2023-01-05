@@ -2,16 +2,15 @@ import React from "react";
 import Link from "next/link";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
-import { ChevronDownIcon } from "@heroicons/react/outline";
+import { MenuIcon } from "@heroicons/react/outline";
 
 export default function SideMenu() {
   return (
     <div className="flex items-center space-x-2">
       <Menu as="div" className="relative inline-block text-left">
         <div>
-          <Menu.Button className="inline-flex w-full justify-center rounded-md bg-gray-500 bg-opacity-60 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
-            Menu
-            <ChevronDownIcon
+          <Menu.Button className="inline-flex w-full justify-center rounded-md bg-transaprent bg-opacity-60 px-4 py-2 text-sm font-medium text-black hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+            <MenuIcon
               className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
               aria-hidden="true"
             />

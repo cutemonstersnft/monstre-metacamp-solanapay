@@ -2,11 +2,11 @@ import React from "react";
 import { useState } from "react";
 import {
   ProductCard,
-  Product,
-  MyModal,
+  Navbar
 } from "@/components/index";
 
 import products from "products";
+import charms from "charms";
 
 React.useLayoutEffect = React.useEffect;
 
@@ -25,6 +25,7 @@ export default function Home() {
             onAddEnded={() => setDisabled(false)}
             {...product}
           />
+          
         ))}
       </div>
     </div>

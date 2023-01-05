@@ -262,7 +262,7 @@ const Cart = () => {
                             <div className="mt-4 grid grid-cols-2">
                               <a
                                 type="button"
-                                href={`solana:https%3A%2F%2Fmonstre-sp-server.vercel.app%2Fapi%2Fmenu2%3Fmetacamp-menu%3D${(
+                                href={`solana:https%3A%2F%2Fmonstre-solanapay-nft.vercel.app%2Fapi%2Fverify2%3Fverify-nft%3D${(
                                   totalPrice
                                 )}`}
                                 className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm text-center font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
@@ -271,7 +271,7 @@ const Cart = () => {
                               </a>  
                               <a
                                 type="button"
-                                href={`solana:https%3A%2F%2Fmonstre-sp-server.vercel.app%2Fapi%2Fmenu1%3Fmetacamp-menu%3D${(
+                                href={`solana:https%3A%2F%2Fmonstre-solanapay-nft.vercel.app%2Fapi%2Fverify2%3Fverify-nft%3D${(
                                   totalPrice
                                 )}`}
                                 className="inline-flex align-middle justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 ml-4 align-text-middle text-sm text-center sm:align- font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"

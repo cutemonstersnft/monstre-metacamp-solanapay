@@ -11,7 +11,7 @@ export default function SideMenu() {
         <div>
           <Menu.Button className="inline-flex w-full justify-center rounded-md bg-transaprent bg-opacity-60 px-4 py-2 text-sm font-medium text-black hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
             <MenuIcon
-              className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
+              className="ml-2 -mr-1 h-6 w-6 text-violet-200 hover:text-violet-100"
               aria-hidden="true"
             />
           </Menu.Button>

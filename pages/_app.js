@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <> 
       <Head>
         <title>
-          Metacamp Menu | Powered by Monstrè
+          Monstrè
         </title>
         <meta
           name="description"

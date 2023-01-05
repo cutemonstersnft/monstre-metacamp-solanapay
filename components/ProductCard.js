@@ -6,7 +6,7 @@ import { useShoppingCart } from '@/hooks/use-shopping-cart';
 import { formatCurrency } from '@/lib/utils';
 import { Rating } from '@/components/index';
 import { Disclosure } from '@headlessui/react'
-import Snowfall from 'react-snowfall';
+
 
 
 

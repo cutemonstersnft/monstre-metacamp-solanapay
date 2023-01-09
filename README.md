@@ -1,6 +1,9 @@
-E-commerce store built with Next.js, Stripe Checkout and Solana Pay.
+E-commerce store built with Next.js, Stripe Checkout and Solana Pay. This app demonstrates the efficiency of using blockchain payments to apply conditional payments (getting discounts based on certain Digital Collectibles that users hold)
 
-- Preview the app live [here](https://monstre-metacamp-solanapay.vercel.app/).
+
+The Timbre+ Rewards Ecosystem has been completely rebuilt to include the ability to purchase vouchers from individual merchants and the option for users to apply conditional payments if they have specific Digital Collectibles in their wallet.
+
+- Preview the app live [here](https://sbic.monstre.net/).
 
 
 ## Getting Started

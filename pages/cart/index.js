@@ -86,7 +86,7 @@ const Cart = () => {
                 className="flex justify-between space-x-4 hover:shadow-lg hover:border-opacity-50 border border-opacity-0 rounded-md p-4"
               >
                 {/* Image + Name */}
-                <Link href={`/products/${product.id}`}>
+                <div>
                   <a className="flex items-center space-x-4 group">
                     <div className="relative w-20 h-20 group-hover:scale-110 transition-transform">
                       <Image
@@ -100,7 +100,7 @@ const Cart = () => {
                       {product.name}
                     </p>
                   </a>
-                </Link>
+                  </div>
 
                 {/* Price + Actions */}
                 <div className="flex items-center">

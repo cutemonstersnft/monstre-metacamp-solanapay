@@ -7,11 +7,6 @@ import { formatCurrency } from '@/lib/utils';
 import { Rating } from '@/components/index';
 import { Disclosure } from '@headlessui/react'
 
-
-
-
-
-
 const ProductCard = props => {
   const { cartCount, addItem } = useShoppingCart();
   const [adding, setAdding] = useState(false);
@@ -74,7 +69,7 @@ const ProductCard = props => {
         <div className="mt-4 flex items-center justify-between space-x-2">
           <div>
             <p className="text-gray-500">Price</p>
-            <p className="text-lg font-semibold">US
+            <p className="text-lg font-semibold">
               {formatCurrency(props.price, props.currency)}
             </p>
           </div>

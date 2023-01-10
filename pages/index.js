@@ -2,11 +2,12 @@ import React from "react";
 import { useState } from "react";
 import {
   ProductCard,
+  ProductCard2,
   Navbar
 } from "@/components/index";
 
 import products from "products";
-import charms from "charms";
+import products2 from "products2";
 
 React.useLayoutEffect = React.useEffect;
 
@@ -24,7 +25,17 @@ export default function Home() {
             onAddEnded={() => setDisabled(false)}
             {...product}
           />
-          
+        ))}
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-8">
+        {products2.map((product) => (
+          <ProductCard2
+            key={product.id}
+            disabled={disabled}
+            onClickAdd={() => setDisabled(true)}
+            onAddEnded={() => setDisabled(false)}
+            {...product}
+          />
         ))}
       </div>
     </div>

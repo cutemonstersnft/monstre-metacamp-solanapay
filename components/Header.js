@@ -16,7 +16,6 @@ const Header = () => {
               <ShoppingCartIcon className="w-7 h-7 mt-2 flex-shrink-0" />
             </div>
             <p className="text-lg mt-2">
-              US
               {formatCurrency(totalPrice)}{" "}
               <span className="text-sm text-gray-500">({cartCount})</span>
             </p>
